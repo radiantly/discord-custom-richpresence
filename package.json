@@ -1,0 +1,19 @@
+{
+  "name": "discord-custom-richpresence",
+  "version": "1.0.0",
+  "description": "A cross-platform electron app that makes changing your Discord Rich Presence a breeze :)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord-rpc": "github:discordjs/RPC"
+  },
+  "devDependencies": {
+    "electron": "^9.2.0"
+  }
+}

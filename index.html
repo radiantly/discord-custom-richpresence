@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Discord Custom Rich Presence</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form id="rpForm">
+      <div class="input-wrapper">
+        <label for="clientId">Client Id</label>
+        <input type="text" id="clientId" placeholder="Client ID" value="731545475748069416" />
+      </div>
+
+      <input type="submit" id="start" value="Start" />
+      <div class="input-wrapper">
+        <label for="details">Line 1</label>
+        <input type="text" id="details" placeholder="Line 1" value="Playing cool .." />
+      </div>
+      <div class="input-wrapper">
+        <label for="state">Line 2</label>
+        <input type="text" id="state" placeholder="Line 2" value=".. as always" />
+      </div>
+      <div class="input-wrapper">
+        <label for="largeImageKey">Large Image Name</label>
+        <input type="text" id="largeImageKey" placeholder="Large Image Name" value="dogesunglass" />
+      </div>
+      <div class="input-wrapper">
+        <label for="largeImageText">Large Image Hover Text</label>
+        <input type="text" id="largeImageText" placeholder="Large Image Text" value="Doge cool" />
+      </div>
+      <div class="input-wrapper">
+        <label for="smallImageKey">Small Image Name</label>
+        <input type="text" id="smallImageKey" placeholder="Small Image Name" value="myava" />
+      </div>
+      <div class="input-wrapper">
+        <label for="smallImageText">Small Image Hover Text</label>
+        <input type="text" id="smallImageText" placeholder="Small Image Text" value="me" />
+      </div>
+      <!-- <label for="clientId">Client Id</label>-->
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
